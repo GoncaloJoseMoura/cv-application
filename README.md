@@ -15,10 +15,10 @@ Think about how to structure your application into components. Your application 
 #### Step 3: Functionality Implementation
 1. Implement input fields for each section to capture user information.
 2. Include edit and submit buttons for each section or the entire CV (depending on your design).
-   2.1 Submit button:
+   1. Submit button:
      - Collects user input from all fields
      - Displays the collected data in HTML elements (e.g., <p>, <h1>)
-   2.2 Edit button:
+   2. Edit button:
      - Replaces displayed information with editable input fields containing the pre-filled user data.
 
 #### Step 4: State Management
