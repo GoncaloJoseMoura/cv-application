@@ -13,8 +13,8 @@ Think about how to structure your application into components. Your application 
 3. A section to add practical experience (company name, position title, main responsibilities of your jobs, date from and until when you worked for that company)
 
 #### Step 3: Functionality Implementation
-* Implement input fields for each section to capture user information (e.g., name, school name, company name).
-* Include edit and submit buttons for each section or the entire CV (depending on your design).
+1. Implement input fields for each section to capture user information (e.g., name, school name, company name).
+2. Include edit and submit buttons for each section or the entire CV (depending on your design).
 
   **Submit button:**
   - Collects user input from all fields (explain how, e.g., using refs or state)
