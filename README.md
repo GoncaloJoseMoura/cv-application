@@ -16,12 +16,12 @@ Think about how to structure your application into components. Your application 
 1. Implement input fields for each section to capture user information (e.g., name, school name, company name).
 2. Include edit and submit buttons for each section or the entire CV (depending on your design).
 
-  **Submit button:**
-  - Collects user input from all fields (explain how, e.g., using refs or state)
-  - Displays the collected data in HTML elements (e.g., `<p>`, `<h1>`)
+    **Submit button:**
+   - Collects user input from all fields (explain how, e.g., using refs or state)
+   - Displays the collected data in HTML elements (e.g., `<p>`, `<h1>`)
 
-  **Edit button:**
-  - Replaces displayed information with editable input fields containing the pre-filled user data.
+    **Edit button:**
+   - Replaces displayed information with editable input fields containing the pre-filled user data. 
 
 #### Step 4: State Management
 1. Utilize React state to manage the information entered by the user.
