@@ -1,8 +1,35 @@
-# React + Vite
+👐 See the working version: https://goncalojosemoura-cv-application.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Project: CV App
+### ➡️ The Challenge: Develop a dynamic CV builder that allows users to input their information in dedicated sections.
+## 🗺 The guide
+#### Step 1: Project Setup
+1. Create a new React project using your preferred method
 
-Currently, two official plugins are available:
+#### Step 2: Component Structure
+Think about how to structure your application into components. Your application should include:
+1. A section to add general information like name, email and phone number.
+2. A section to add your educational experience (school name, title of study and date of study)
+3. A section to add practical experience (company name, position title, main responsibilities of your jobs, date from and until when you worked for that company)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Step 3: Functionality Implementation
+1. Implement input fields for each section to capture user information (e.g., name, school name, company name).
+2. Include edit and submit buttons for each section or the entire CV (depending on your design).
+
+    **Submit button:**
+   - Collects user input from all fields (explain how, e.g., using refs or state)
+   - Displays the collected data in HTML elements (e.g., `<p>`, `<h1>`)
+
+    **Edit button:**
+   - Replaces displayed information with editable input fields containing the pre-filled user data. 
+
+#### Step 4: State Management
+1. Utilize React state to manage the information entered by the user.
+2. Update state values upon user interaction with input fields.
+
+#### Step 5: Styling and Layout
+1. Create a styles directory to store CSS files for styling your CV components.
+2. Import CSS files into your component files for visual formatting.
+
+#### Step 6: Deployment
+Choose a deployment method to make your CV application accessible online (e.g., hosting on platforms like Netlify, Vercel).
