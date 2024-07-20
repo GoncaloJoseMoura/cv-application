@@ -84,7 +84,7 @@ function App() {
       >
         <div id="download">
           <div className="colors">
-            <button type="button" className="color c-selector" aria-label="save" onClick={() => setColors(!colors)} />
+            <button type="button" className="c-selector" aria-label="save" onClick={() => setColors(!colors)} />
             {colors
             && (
             <>
