@@ -100,8 +100,6 @@ function App() {
     { category: "Databases", tools: "MySQL, PostgreSQL, MongoDB" },
   ]);
 
-  console.log(skill);
-
   return (
     <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)" }}>
       <div
